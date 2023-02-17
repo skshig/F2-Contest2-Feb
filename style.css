@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+.main-heading{
+    padding-top: 20px;
+    padding-left: 17px;
+}
+.input-box{
+    margin-top:30px;
+    margin-left: 18px;
+}
+.issued-to{
+    margin-top: 15px;
+    background-color: transparent;
+}
+#book-name{
+    margin-left: 15px;
+}
+#issued-to{
+    margin-left: 30px;
+}
+#btn{
+    /* margin-left: 108px; */
+    margin-top: 20px;
+    width: 335px;
+}
+.main-container .table{
+    color: white;
+    margin-top: 20px;
+}
+
+/* function banyege which click button. extract data by doc.getElementbyId('').value
+same for issued to
+  create data by create.getelement(td).. td ko add karo 
+  for date create object */
